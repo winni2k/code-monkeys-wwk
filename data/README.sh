@@ -1,6 +1,11 @@
 ###########
 # Sat Nov 22 18:48:22 GMT 2014
-# downloaded the human reference genome chr20
+# subset GRCh37 to chr20
+echo -e "20\t0\t63025520\t20 dna:chromosome chromosome:GRCh37" > chr20.bed
+~/opt/bedtools2/bin/fastaFromBed -fi /homes/kretzsch/feng/marchini/1000genomes/reference_v37d5/hs37d5.fa -bed chr20.bed -fo hs37d5.chr20.fa -name
+gzip -f hs37d5.chr20.fa
+
+# downloaded the human reference genome chr20 in GRCh38
 wget ftp://ftp.ensembl.org/pub/current_fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.chromosome.20.fa.gz
 
 # download 5 1000 genomes bam slices
