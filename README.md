@@ -4,7 +4,7 @@ Code Monkeys -- Using GNU make and DistributedMake (DM)
 This is the git repository for the Code Monkeys session on GNU make
 and the perl library DistributedMake (DM).  In this session we will
 build a pipeline using a bash script, a make file and a DM-based perl
-script. Each of these methods have their advantages and
+script. All of these methods have their advantages and
 disadvantages. The goal of this session is to get a hands-on
 understanding of what they are.
 
