@@ -3,7 +3,7 @@
 DATA_DIR=../../data
 SAMP_DIR=$(DATA_DIR)/samples
 
-REF_BASE=Homo_sapiens.GRCh38.dna.chromosome.20
+REF_BASE=hs37d5.chr20
 DICT=$(DATA_DIR)/$(REF_BASE).dict
 REF=$(DATA_DIR)/$(REF_BASE).fa.gz
 BIN=../../bin
