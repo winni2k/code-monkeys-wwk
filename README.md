@@ -41,7 +41,6 @@ directory
     ./setup.sh
     
 
-
 Directory structure
 --------
 
@@ -54,9 +53,10 @@ Contains the three working directories `results/bash`, `results/make`
 and `results/dm`: one for each pipelining method.
 
 ### src
-Contains all programs needed to perform the steps of the pipeline
+Contains all programs needed to perform the steps of the pipeline.
 
-
+### bin
+Compiled binaries are stored in `bin` for reference by the pipelines.
 
 
 
